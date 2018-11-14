@@ -1,0 +1,188 @@
+Microsoft Windows [Versione 10.0.17134.345]
+(c) 2018 Microsoft Corporation. Tutti i diritti sono riservati.
+
+C:\Users\KJS>git clone https://github.com/Mydori/Coursera-Test.git
+Cloning into 'Coursera-Test'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+C:\Users\KJS>cd coursera-test
+
+C:\Users\KJS\Coursera-Test>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\KJS\Coursera-Test>git checkout gh-pages
+Switched to a new branch 'gh-pages'
+Branch 'gh-pages' set up to track remote branch 'gh-pages' from 'origin'.
+
+C:\Users\KJS\Coursera-Test>git status
+On branch gh-pages
+Your branch is up to date with 'origin/gh-pages'.
+
+nothing to commit, working tree clean
+
+C:\Users\KJS\Coursera-Test>ls
+"ls" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\KJS\Coursera-Test>ls
+"ls" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\KJS\Coursera-Test>mkdir site
+
+C:\Users\KJS\Coursera-Test>cd site
+
+C:\Users\KJS\Coursera-Test\site>sublime text
+"sublime" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\KJS\Coursera-Test\site>ls
+"ls" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\KJS\Coursera-Test\site>list
+"list" non è riconosciuto come comando interno o esterno,
+ un programma eseguibile o un file batch.
+
+C:\Users\KJS\Coursera-Test\site>dir
+ Il volume nell'unità C è OS
+ Numero di serie del volume: 2EC9-D2B9
+
+ Directory di C:\Users\KJS\Coursera-Test\site
+
+14/11/2018  13.32    <DIR>          .
+14/11/2018  13.32    <DIR>          ..
+14/11/2018  13.34               123 index.html
+               1 File            123 byte
+               2 Directory  243.982.110.720 byte disponibili
+
+C:\Users\KJS\Coursera-Test\site>git status
+On branch gh-pages
+Your branch is up to date with 'origin/gh-pages'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\KJS\Coursera-Test\site>cd
+C:\Users\KJS\Coursera-Test\site
+
+C:\Users\KJS\Coursera-Test\site>cd ..
+
+C:\Users\KJS\Coursera-Test>git status
+On branch gh-pages
+Your branch is up to date with 'origin/gh-pages'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        site/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\KJS\Coursera-Test>git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+C:\Users\KJS\Coursera-Test>git add .
+
+C:\Users\KJS\Coursera-Test>git status
+On branch gh-pages
+Your branch is up to date with 'origin/gh-pages'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   site/index.html
+
+
+C:\Users\KJS\Coursera-Test>git commit -m"My first page."
+[gh-pages 5d5aea5] My first page.
+ 1 file changed, 9 insertions(+)
+ create mode 100644 site/index.html
+
+C:\Users\KJS\Coursera-Test>git status
+On branch gh-pages
+Your branch is ahead of 'origin/gh-pages' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\KJS\Coursera-Test>git push
+Username for 'https://github.com': smm062018@gmail.com
+Password for 'https://smm062018@gmail.com@github.com':
+To https://github.com/Mydori/Coursera-Test.git
+ ! [rejected]        gh-pages -> gh-pages (fetch first)
+error: failed to push some refs to 'https://github.com/Mydori/Coursera-Test.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\KJS\Coursera-Test>git push
+Username for 'https://github.com': smm062018@gmail.com
+Password for 'https://smm062018@gmail.com@github.com':
+To https://github.com/Mydori/Coursera-Test.git
+ ! [rejected]        gh-pages -> gh-pages (fetch first)
+error: failed to push some refs to 'https://github.com/Mydori/Coursera-Test.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\KJS\Coursera-Test>git push
+Username for 'https://github.com': Mydory
+Password for 'https://Mydory@github.com':
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/Mydori/Coursera-Test.git/'
+
+C:\Users\KJS\Coursera-Test>git push
+Username for 'https://github.com': Mydori
+Password for 'https://Mydori@github.com':
+To https://github.com/Mydori/Coursera-Test.git
+ ! [rejected]        gh-pages -> gh-pages (fetch first)
+error: failed to push some refs to 'https://github.com/Mydori/Coursera-Test.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\Users\KJS\Coursera-Test>git pull
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (4/4), done.
+From https://github.com/Mydori/Coursera-Test
+   7d36995..c907c4c  gh-pages   -> origin/gh-pages
+Merge made by the 'recursive' strategy.
+ README.md   | 39 +++++++++++++++++++++++++++++++++++++--
+ _config.yml |  1 +
+ 2 files changed, 38 insertions(+), 2 deletions(-)
+ create mode 100644 _config.yml
+
+C:\Users\KJS\Coursera-Test>git push
+Username for 'https://github.com': Mydori
+Password for 'https://Mydori@github.com':
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 770 bytes | 770.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0)
+To https://github.com/Mydori/Coursera-Test.git
+   c907c4c..d57e320  gh-pages -> gh-pages
+
+C:\Users\KJS\Coursera-Test>
